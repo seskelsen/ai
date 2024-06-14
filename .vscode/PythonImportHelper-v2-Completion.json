@@ -1,0 +1,218 @@
+[
+    {
+        "label": "resultados",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095738",
+        "description": ".history.MetricasMatrixConfusao_20240614095738",
+        "peekOfCode": "resultados = [\n    {\"real\": \"positivo\", \"predito\": \"positivo\"},\n    {\"real\": \"negativo\", \"predito\": \"positivo\"},\n    {\"real\": \"positivo\", \"predito\": \"negativo\"},\n    {\"real\": \"negativo\", \"predito\": \"negativo\"}\n    # Adicione mais resultados aqui...\n]\n# Inicializando contadores\nTP, FN, FP, TN = 0, 0, 0, 0\n# Contando os valores",
+        "detail": ".history.MetricasMatrixConfusao_20240614095738",
+        "documentation": {}
+    },
+    {
+        "label": "matriz_confusao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095738",
+        "description": ".history.MetricasMatrixConfusao_20240614095738",
+        "peekOfCode": "matriz_confusao = [\n    [TP, FN],\n    [FP, TN]\n]\n# Calculando as métricas\nacuracia = (TP + TN) / (TP + FN + FP + TN)\nprecisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados",
+        "detail": ".history.MetricasMatrixConfusao_20240614095738",
+        "documentation": {}
+    },
+    {
+        "label": "acuracia",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095738",
+        "description": ".history.MetricasMatrixConfusao_20240614095738",
+        "peekOfCode": "acuracia = (TP + TN) / (TP + FN + FP + TN)\nprecisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095738",
+        "documentation": {}
+    },
+    {
+        "label": "precisao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095738",
+        "description": ".history.MetricasMatrixConfusao_20240614095738",
+        "peekOfCode": "precisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095738",
+        "documentation": {}
+    },
+    {
+        "label": "revocacao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095738",
+        "description": ".history.MetricasMatrixConfusao_20240614095738",
+        "peekOfCode": "revocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095738",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095738",
+        "description": ".history.MetricasMatrixConfusao_20240614095738",
+        "peekOfCode": "f1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095738",
+        "documentation": {}
+    },
+    {
+        "label": "resultados",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095824",
+        "description": ".history.MetricasMatrixConfusao_20240614095824",
+        "peekOfCode": "resultados = [\n    {\"real\": \"positivo\", \"predito\": \"positivo\"},\n    {\"real\": \"negativo\", \"predito\": \"positivo\"},\n    {\"real\": \"positivo\", \"predito\": \"negativo\"},\n    {\"real\": \"negativo\", \"predito\": \"negativo\"}\n    # Adicione mais resultados aqui...\n]\n# Inicializando contadores\nTP, FN, FP, TN = 0, 0, 0, 0\n# Contando os valores",
+        "detail": ".history.MetricasMatrixConfusao_20240614095824",
+        "documentation": {}
+    },
+    {
+        "label": "matriz_confusao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095824",
+        "description": ".history.MetricasMatrixConfusao_20240614095824",
+        "peekOfCode": "matriz_confusao = [\n    [TP, FN],\n    [FP, TN]\n]\n# Calculando as métricas\nacuracia = (TP + TN) / (TP + FN + FP + TN)\nprecisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados",
+        "detail": ".history.MetricasMatrixConfusao_20240614095824",
+        "documentation": {}
+    },
+    {
+        "label": "acuracia",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095824",
+        "description": ".history.MetricasMatrixConfusao_20240614095824",
+        "peekOfCode": "acuracia = (TP + TN) / (TP + FN + FP + TN)\nprecisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095824",
+        "documentation": {}
+    },
+    {
+        "label": "precisao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095824",
+        "description": ".history.MetricasMatrixConfusao_20240614095824",
+        "peekOfCode": "precisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095824",
+        "documentation": {}
+    },
+    {
+        "label": "revocacao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095824",
+        "description": ".history.MetricasMatrixConfusao_20240614095824",
+        "peekOfCode": "revocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095824",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095824",
+        "description": ".history.MetricasMatrixConfusao_20240614095824",
+        "peekOfCode": "f1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095824",
+        "documentation": {}
+    },
+    {
+        "label": "resultados",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095905",
+        "description": ".history.MetricasMatrixConfusao_20240614095905",
+        "peekOfCode": "resultados = [\n    {\"real\": \"positivo\", \"predito\": \"positivo\"},\n    {\"real\": \"negativo\", \"predito\": \"positivo\"},\n    {\"real\": \"positivo\", \"predito\": \"negativo\"},\n    {\"real\": \"negativo\", \"predito\": \"negativo\"}\n    # Adicione mais resultados aqui...\n]\n# Inicializando contadores\nTP, FN, FP, TN = 0, 0, 0, 0\n# Contando os valores",
+        "detail": ".history.MetricasMatrixConfusao_20240614095905",
+        "documentation": {}
+    },
+    {
+        "label": "matriz_confusao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095905",
+        "description": ".history.MetricasMatrixConfusao_20240614095905",
+        "peekOfCode": "matriz_confusao = [\n    [TP, FN],\n    [FP, TN]\n]\n# Calculando as métricas\nacuracia = (TP + TN) / (TP + FN + FP + TN)\nprecisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados",
+        "detail": ".history.MetricasMatrixConfusao_20240614095905",
+        "documentation": {}
+    },
+    {
+        "label": "acuracia",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095905",
+        "description": ".history.MetricasMatrixConfusao_20240614095905",
+        "peekOfCode": "acuracia = (TP + TN) / (TP + FN + FP + TN)\nprecisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095905",
+        "documentation": {}
+    },
+    {
+        "label": "precisao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095905",
+        "description": ".history.MetricasMatrixConfusao_20240614095905",
+        "peekOfCode": "precisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095905",
+        "documentation": {}
+    },
+    {
+        "label": "revocacao",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095905",
+        "description": ".history.MetricasMatrixConfusao_20240614095905",
+        "peekOfCode": "revocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095905",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "kind": 5,
+        "importPath": ".history.MetricasMatrixConfusao_20240614095905",
+        "description": ".history.MetricasMatrixConfusao_20240614095905",
+        "peekOfCode": "f1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": ".history.MetricasMatrixConfusao_20240614095905",
+        "documentation": {}
+    },
+    {
+        "label": "resultados",
+        "kind": 5,
+        "importPath": "MetricasMatrizConfusao",
+        "description": "MetricasMatrizConfusao",
+        "peekOfCode": "resultados = [\n    {\"real\": \"positivo\", \"predito\": \"positivo\"},\n    {\"real\": \"negativo\", \"predito\": \"positivo\"},\n    {\"real\": \"positivo\", \"predito\": \"negativo\"},\n    {\"real\": \"negativo\", \"predito\": \"negativo\"}\n    # Adicione mais resultados aqui...\n]\n# Inicializando contadores\nTP, FN, FP, TN = 0, 0, 0, 0\n# Contando os valores",
+        "detail": "MetricasMatrizConfusao",
+        "documentation": {}
+    },
+    {
+        "label": "matriz_confusao",
+        "kind": 5,
+        "importPath": "MetricasMatrizConfusao",
+        "description": "MetricasMatrizConfusao",
+        "peekOfCode": "matriz_confusao = [\n    [TP, FN],\n    [FP, TN]\n]\n# Calculando as métricas\nacuracia = (TP + TN) / (TP + FN + FP + TN)\nprecisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados",
+        "detail": "MetricasMatrizConfusao",
+        "documentation": {}
+    },
+    {
+        "label": "acuracia",
+        "kind": 5,
+        "importPath": "MetricasMatrizConfusao",
+        "description": "MetricasMatrizConfusao",
+        "peekOfCode": "acuracia = (TP + TN) / (TP + FN + FP + TN)\nprecisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": "MetricasMatrizConfusao",
+        "documentation": {}
+    },
+    {
+        "label": "precisao",
+        "kind": 5,
+        "importPath": "MetricasMatrizConfusao",
+        "description": "MetricasMatrizConfusao",
+        "peekOfCode": "precisao = TP / (TP + FP)\nrevocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": "MetricasMatrizConfusao",
+        "documentation": {}
+    },
+    {
+        "label": "revocacao",
+        "kind": 5,
+        "importPath": "MetricasMatrizConfusao",
+        "description": "MetricasMatrizConfusao",
+        "peekOfCode": "revocacao = TP / (TP + FN)\nf1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": "MetricasMatrizConfusao",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "kind": 5,
+        "importPath": "MetricasMatrizConfusao",
+        "description": "MetricasMatrizConfusao",
+        "peekOfCode": "f1_score = 2 * (precisao * revocacao) / (precisao + revocacao)\n# Exibindo os resultados\nprint(\"Matriz de Confusão:\", matriz_confusao)\nprint(\"Acurácia:\", acuracia)\nprint(\"Precisão:\", precisao)\nprint(\"Revocação:\", revocacao)\nprint(\"F1-Score:\", f1_score)",
+        "detail": "MetricasMatrizConfusao",
+        "documentation": {}
+    }
+]
