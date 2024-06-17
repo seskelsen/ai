@@ -1,5 +1,151 @@
 [
     {
+        "label": "load_iris",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "load_iris",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "load_iris",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "load_iris",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionTreeClassifier",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionTreeClassifier",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionTreeClassifier",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionTreeClassifier",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
         "label": "glob",
         "kind": 6,
         "isExtraImport": true,
@@ -69,6 +215,267 @@
         "importPath": "subprocess",
         "description": "subprocess",
         "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616213948",
+        "description": ".history.arvorededecisao_20240616213948",
+        "peekOfCode": "data = load_iris()\nX = data.data\ny = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)",
+        "detail": ".history.arvorededecisao_20240616213948",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616213948",
+        "description": ".history.arvorededecisao_20240616213948",
+        "peekOfCode": "X = data.data\ny = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)",
+        "detail": ".history.arvorededecisao_20240616213948",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616213948",
+        "description": ".history.arvorededecisao_20240616213948",
+        "peekOfCode": "y = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")",
+        "detail": ".history.arvorededecisao_20240616213948",
+        "documentation": {}
+    },
+    {
+        "label": "clf",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616213948",
+        "description": ".history.arvorededecisao_20240616213948",
+        "peekOfCode": "clf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616213948",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616213948",
+        "description": ".history.arvorededecisao_20240616213948",
+        "peekOfCode": "y_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616213948",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616213948",
+        "description": ".history.arvorededecisao_20240616213948",
+        "peekOfCode": "accuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616213948",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214254",
+        "description": ".history.arvorededecisao_20240616214254",
+        "peekOfCode": "data = load_iris()\nX = data.data\ny = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)",
+        "detail": ".history.arvorededecisao_20240616214254",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214254",
+        "description": ".history.arvorededecisao_20240616214254",
+        "peekOfCode": "X = data.data\ny = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)",
+        "detail": ".history.arvorededecisao_20240616214254",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214254",
+        "description": ".history.arvorededecisao_20240616214254",
+        "peekOfCode": "y = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")",
+        "detail": ".history.arvorededecisao_20240616214254",
+        "documentation": {}
+    },
+    {
+        "label": "clf",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214254",
+        "description": ".history.arvorededecisao_20240616214254",
+        "peekOfCode": "clf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616214254",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214254",
+        "description": ".history.arvorededecisao_20240616214254",
+        "peekOfCode": "y_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616214254",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214254",
+        "description": ".history.arvorededecisao_20240616214254",
+        "peekOfCode": "accuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616214254",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214532",
+        "description": ".history.arvorededecisao_20240616214532",
+        "peekOfCode": "data = load_iris()\nX = data.data\ny = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)",
+        "detail": ".history.arvorededecisao_20240616214532",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214532",
+        "description": ".history.arvorededecisao_20240616214532",
+        "peekOfCode": "X = data.data\ny = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)",
+        "detail": ".history.arvorededecisao_20240616214532",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214532",
+        "description": ".history.arvorededecisao_20240616214532",
+        "peekOfCode": "y = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")",
+        "detail": ".history.arvorededecisao_20240616214532",
+        "documentation": {}
+    },
+    {
+        "label": "clf",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214532",
+        "description": ".history.arvorededecisao_20240616214532",
+        "peekOfCode": "clf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616214532",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214532",
+        "description": ".history.arvorededecisao_20240616214532",
+        "peekOfCode": "y_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616214532",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": ".history.arvorededecisao_20240616214532",
+        "description": ".history.arvorededecisao_20240616214532",
+        "peekOfCode": "accuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": ".history.arvorededecisao_20240616214532",
+        "documentation": {}
+    },
+    {
+        "label": "entropy",
+        "kind": 2,
+        "importPath": ".history.entropy_20240616213645",
+        "description": ".history.entropy_20240616213645",
+        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nprint(\"Entropia:\", entropy(labels))",
+        "detail": ".history.entropy_20240616213645",
+        "documentation": {}
+    },
+    {
+        "label": "labels",
+        "kind": 5,
+        "importPath": ".history.entropy_20240616213645",
+        "description": ".history.entropy_20240616213645",
+        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nprint(\"Entropia:\", entropy(labels))",
+        "detail": ".history.entropy_20240616213645",
+        "documentation": {}
+    },
+    {
+        "label": "entropy",
+        "kind": 2,
+        "importPath": ".history.entropy_20240616213856",
+        "description": ".history.entropy_20240616213856",
+        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nresult = entropy(labels)",
+        "detail": ".history.entropy_20240616213856",
+        "documentation": {}
+    },
+    {
+        "label": "labels",
+        "kind": 5,
+        "importPath": ".history.entropy_20240616213856",
+        "description": ".history.entropy_20240616213856",
+        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": ".history.entropy_20240616213856",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": ".history.entropy_20240616213856",
+        "description": ".history.entropy_20240616213856",
+        "peekOfCode": "result = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": ".history.entropy_20240616213856",
+        "documentation": {}
+    },
+    {
+        "label": "entropy",
+        "kind": 2,
+        "importPath": ".history.entropy_20240616214645",
+        "description": ".history.entropy_20240616214645",
+        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nresult = entropy(labels)",
+        "detail": ".history.entropy_20240616214645",
+        "documentation": {}
+    },
+    {
+        "label": "labels",
+        "kind": 5,
+        "importPath": ".history.entropy_20240616214645",
+        "description": ".history.entropy_20240616214645",
+        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": ".history.entropy_20240616214645",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": ".history.entropy_20240616214645",
+        "description": ".history.entropy_20240616214645",
+        "peekOfCode": "result = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": ".history.entropy_20240616214645",
+        "documentation": {}
+    },
+    {
+        "label": "entropy",
+        "kind": 2,
+        "importPath": ".history.entropy_20240616214907",
+        "description": ".history.entropy_20240616214907",
+        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n# print(\"Entropia:\", entropy(labels))",
+        "detail": ".history.entropy_20240616214907",
+        "documentation": {}
+    },
+    {
+        "label": "labels",
+        "kind": 5,
+        "importPath": ".history.entropy_20240616214907",
+        "description": ".history.entropy_20240616214907",
+        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n# print(\"Entropia:\", entropy(labels))\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": ".history.entropy_20240616214907",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": ".history.entropy_20240616214907",
+        "description": ".history.entropy_20240616214907",
+        "peekOfCode": "result = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": ".history.entropy_20240616214907",
         "documentation": {}
     },
     {
@@ -483,6 +890,87 @@
         "description": ".venv.Scripts.pywin32_testall",
         "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
         "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "arvorededecisao",
+        "description": "arvorededecisao",
+        "peekOfCode": "data = load_iris()\nX = data.data\ny = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)",
+        "detail": "arvorededecisao",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "arvorededecisao",
+        "description": "arvorededecisao",
+        "peekOfCode": "X = data.data\ny = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)",
+        "detail": "arvorededecisao",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "arvorededecisao",
+        "description": "arvorededecisao",
+        "peekOfCode": "y = data.target\n# Dividir o conjunto de dados em treino e teste\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Construir o classificador de árvore de decisão\nclf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")",
+        "detail": "arvorededecisao",
+        "documentation": {}
+    },
+    {
+        "label": "clf",
+        "kind": 5,
+        "importPath": "arvorededecisao",
+        "description": "arvorededecisao",
+        "peekOfCode": "clf = DecisionTreeClassifier(criterion='entropy')\nclf.fit(X_train, y_train)\n# Previsão e avaliação\ny_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": "arvorededecisao",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": "arvorededecisao",
+        "description": "arvorededecisao",
+        "peekOfCode": "y_pred = clf.predict(X_test)\naccuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": "arvorededecisao",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": "arvorededecisao",
+        "description": "arvorededecisao",
+        "peekOfCode": "accuracy = np.mean(y_pred == y_test)\nprint(f\"Accuracy: {accuracy:.2f}\")\n# Visualizar a árvore de decisão\nplt.figure(figsize=(20,10))\ntree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)\nplt.show()",
+        "detail": "arvorededecisao",
+        "documentation": {}
+    },
+    {
+        "label": "entropy",
+        "kind": 2,
+        "importPath": "entropy",
+        "description": "entropy",
+        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n# print(\"Entropia:\", entropy(labels))",
+        "detail": "entropy",
+        "documentation": {}
+    },
+    {
+        "label": "labels",
+        "kind": 5,
+        "importPath": "entropy",
+        "description": "entropy",
+        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n# print(\"Entropia:\", entropy(labels))\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": "entropy",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "entropy",
+        "description": "entropy",
+        "peekOfCode": "result = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": "entropy",
         "documentation": {}
     },
     {

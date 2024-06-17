@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="ThisCarDam <= 1.5\ngini = 0.651\nsamples = 3723\nvalue = [1009, 1090, 1624]\nclass = y[2]", fillcolor="#e5d7fa"] ;
+1 [label="ThisCarDam <= 0.5\ngini = 0.545\nsamples = 1997\nvalue = [1008.0, 887.0, 102.0]\nclass = y[0]", fillcolor="#fcf1e9"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="RuggedAuto <= 1.5\ngini = 0.301\nsamples = 1121\nvalue = [924, 147, 50]\nclass = y[0]", fillcolor="#ea9a61"] ;
+1 -> 3 ;
+5 [label="gini = 0.059\nsamples = 892\nvalue = [865, 27, 0]\nclass = y[0]", fillcolor="#e6853f"] ;
+3 -> 5 ;
+6 [label="gini = 0.611\nsamples = 229\nvalue = [59, 120, 50]\nclass = y[1]", fillcolor="#b8f6d2"] ;
+3 -> 6 ;
+4 [label="RuggedAuto <= 1.5\ngini = 0.274\nsamples = 876\nvalue = [84, 740, 52]\nclass = y[1]", fillcolor="#5be997"] ;
+1 -> 4 ;
+9 [label="gini = 0.199\nsamples = 775\nvalue = [80, 689, 6]\nclass = y[1]", fillcolor="#52e891"] ;
+4 -> 9 ;
+10 [label="gini = 0.536\nsamples = 101\nvalue = [4, 51, 46]\nclass = y[1]", fillcolor="#edfdf4"] ;
+4 -> 10 ;
+2 [label="PropCost <= 1.5\ngini = 0.209\nsamples = 1726\nvalue = [1, 203, 1522]\nclass = y[2]", fillcolor="#9254e8"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="gini = 0.11\nsamples = 1369\nvalue = [0, 80, 1289]\nclass = y[2]", fillcolor="#8945e7"] ;
+2 -> 7 ;
+8 [label="gini = 0.455\nsamples = 357\nvalue = [1, 123, 233]\nclass = y[2]", fillcolor="#c4a2f3"] ;
+2 -> 8 ;
+}
