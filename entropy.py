@@ -12,6 +12,6 @@ def entropy(labels):
 # Exemplo de uso
 labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']
 
-# print("Entropia:", entropy(labels))
+#print("Entropia:", entropy(labels))
 result = entropy(labels)
 print("Entropia: {result}")

@@ -472,100 +472,28 @@
     {
         "label": "entropy",
         "kind": 2,
-        "importPath": ".history.entropy_20240616213645",
-        "description": ".history.entropy_20240616213645",
-        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nprint(\"Entropia:\", entropy(labels))",
-        "detail": ".history.entropy_20240616213645",
+        "importPath": ".history.entropy_20250720211327",
+        "description": ".history.entropy_20250720211327",
+        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n#print(\"Entropia:\", entropy(labels))",
+        "detail": ".history.entropy_20250720211327",
         "documentation": {}
     },
     {
         "label": "labels",
         "kind": 5,
-        "importPath": ".history.entropy_20240616213645",
-        "description": ".history.entropy_20240616213645",
-        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nprint(\"Entropia:\", entropy(labels))",
-        "detail": ".history.entropy_20240616213645",
-        "documentation": {}
-    },
-    {
-        "label": "entropy",
-        "kind": 2,
-        "importPath": ".history.entropy_20240616213856",
-        "description": ".history.entropy_20240616213856",
-        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nresult = entropy(labels)",
-        "detail": ".history.entropy_20240616213856",
-        "documentation": {}
-    },
-    {
-        "label": "labels",
-        "kind": 5,
-        "importPath": ".history.entropy_20240616213856",
-        "description": ".history.entropy_20240616213856",
-        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
-        "detail": ".history.entropy_20240616213856",
+        "importPath": ".history.entropy_20250720211327",
+        "description": ".history.entropy_20250720211327",
+        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n#print(\"Entropia:\", entropy(labels))\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "detail": ".history.entropy_20250720211327",
         "documentation": {}
     },
     {
         "label": "result",
         "kind": 5,
-        "importPath": ".history.entropy_20240616213856",
-        "description": ".history.entropy_20240616213856",
+        "importPath": ".history.entropy_20250720211327",
+        "description": ".history.entropy_20250720211327",
         "peekOfCode": "result = entropy(labels)\nprint(\"Entropia: {result}\")",
-        "detail": ".history.entropy_20240616213856",
-        "documentation": {}
-    },
-    {
-        "label": "entropy",
-        "kind": 2,
-        "importPath": ".history.entropy_20240616214645",
-        "description": ".history.entropy_20240616214645",
-        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nresult = entropy(labels)",
-        "detail": ".history.entropy_20240616214645",
-        "documentation": {}
-    },
-    {
-        "label": "labels",
-        "kind": 5,
-        "importPath": ".history.entropy_20240616214645",
-        "description": ".history.entropy_20240616214645",
-        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
-        "detail": ".history.entropy_20240616214645",
-        "documentation": {}
-    },
-    {
-        "label": "result",
-        "kind": 5,
-        "importPath": ".history.entropy_20240616214645",
-        "description": ".history.entropy_20240616214645",
-        "peekOfCode": "result = entropy(labels)\nprint(\"Entropia: {result}\")",
-        "detail": ".history.entropy_20240616214645",
-        "documentation": {}
-    },
-    {
-        "label": "entropy",
-        "kind": 2,
-        "importPath": ".history.entropy_20240616214907",
-        "description": ".history.entropy_20240616214907",
-        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n# print(\"Entropia:\", entropy(labels))",
-        "detail": ".history.entropy_20240616214907",
-        "documentation": {}
-    },
-    {
-        "label": "labels",
-        "kind": 5,
-        "importPath": ".history.entropy_20240616214907",
-        "description": ".history.entropy_20240616214907",
-        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n# print(\"Entropia:\", entropy(labels))\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
-        "detail": ".history.entropy_20240616214907",
-        "documentation": {}
-    },
-    {
-        "label": "result",
-        "kind": 5,
-        "importPath": ".history.entropy_20240616214907",
-        "description": ".history.entropy_20240616214907",
-        "peekOfCode": "result = entropy(labels)\nprint(\"Entropia: {result}\")",
-        "detail": ".history.entropy_20240616214907",
+        "detail": ".history.entropy_20250720211327",
         "documentation": {}
     },
     {
@@ -681,7 +609,7 @@
         "kind": 2,
         "importPath": "entropy",
         "description": "entropy",
-        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n# print(\"Entropia:\", entropy(labels))",
+        "peekOfCode": "def entropy(labels):\n    # Calcula as proporções de cada classe\n    _, counts = np.unique(labels, return_counts=True)\n    probabilities = counts / counts.sum()\n    # Calcula a entropia\n    entropy = -np.sum(probabilities * np.log2(probabilities))\n    return entropy\n# Exemplo de uso\nlabels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n#print(\"Entropia:\", entropy(labels))",
         "detail": "entropy",
         "documentation": {}
     },
@@ -690,7 +618,7 @@
         "kind": 5,
         "importPath": "entropy",
         "description": "entropy",
-        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n# print(\"Entropia:\", entropy(labels))\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
+        "peekOfCode": "labels = ['False', 'False', 'False', 'True', 'True', 'True', 'True', 'True']\n#print(\"Entropia:\", entropy(labels))\nresult = entropy(labels)\nprint(\"Entropia: {result}\")",
         "detail": "entropy",
         "documentation": {}
     },
